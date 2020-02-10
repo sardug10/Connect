@@ -1,0 +1,219 @@
+html{
+    font-size: 65.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url('http://hdwpro.com/wp-content/uploads/2019/01/Beautiful-Awesome-Wallpaper.jpg');
+    background-size: cover;
+}
+
+nav{
+    size: 10rem;    
+    height: 6rem;
+    justify-content: space-around;  
+}
+.logo{
+    font-size: 20rem;
+    color: whitesmoke;
+    font-style: italic;
+    font-family: 'Cute Font', cursive;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+.tagline{
+    opacity: 1;
+    margin-left: 2rem;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Cute Font', cursive;
+}
+
+.nav-links{
+    display: flex;
+    color: whitesmoke;
+    list-style: none;
+    margin-left: 77%;
+    margin-top: -4.5rem;   
+}
+.nav-links li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Cute Font', cursive;
+    font-family: 'Ma Shan Zheng', cursive;
+    margin-right: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;    
+}
+
+
+#login{
+    background: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color:black;
+    overflow: hidden;
+    font-style: italic;
+    font-family: 'Cute Font', cursive;
+    font-size: 5rem;
+    margin-left: 45%;
+    margin-top: 15%;
+    cursor: pointer;
+    opacity: 1;
+    /*display: none;*/
+    
+}
+.signup{
+    background: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: black;
+    overflow: hidden;
+    font-style: italic;
+    font-family: 'Cute Font', cursive;
+    font-size: 5rem;
+    margin-left: 43.5%;
+    margin-top: 1%;
+    cursor: pointer;
+    opacity: 1;
+    
+}
+.user{
+    margin-top:-50rem;
+    width: 26rem;
+    margin-left: 38.5%;
+    height: 3rem;
+    opacity: 0;
+    transition: 1s all ease-in-out;    
+}
+.pass{
+    margin-top: 1rem;
+    width: 26rem;
+    margin-left: 38.5%;
+    height: 3rem;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+
+.logbtn{
+    margin-left: 46%;
+    background: transparent;
+    background-repeat: no-repeat;
+    border-radius: 1rem 0rem;
+    color: black;
+    font-size: 2rem;
+    border-color:white;
+    overflow: hidden;
+    margin-top: 1rem;
+    width: 6rem;
+    height: 3rem;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+h4{
+    margin-left: 44%;
+    opacity: 0;
+    color: white;
+    margin-top: 1rem;
+    transition: 1s all ease-in-out;
+}
+.sign-up-box{
+    margin-top: 0%;
+    transition: 1s all ease-in-out;
+}
+.newmail{
+    margin-top: -15%;
+    width: 26rem;
+    margin-left: 38.5%;
+    height: 3rem;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.newuser{
+    margin-top: 1rem;
+    width: 26rem;
+    margin-left: 38.5%;
+    height: 3rem;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.newpass{
+    margin-top: 1rem;
+    width: 26rem;
+    margin-left: 38.5%;
+    height: 3rem;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.newpass2{
+    margin-top: 1rem;
+    width: 26rem;
+    margin-left: 38.5%;
+    height: 3rem;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+.signbtn{
+    margin-left: 45%;
+    background: transparent;
+    background-repeat: no-repeat;
+    border-radius: 1rem 0rem;
+    color: whitesmoke;
+    font-size: 2rem;
+    border-color:black;
+    overflow: hidden;
+    margin-top: 1rem;
+    width: 8rem;
+    height: 3rem;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+#la{
+    margin-right: 1rem;
+    margin-left: -8%;
+}
+
+.message{
+    margin-left: 62%;
+    margin-top: -12.2%;
+    opacity: 0;
+    
+}
+.msg{
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    font-family: cursive;
+    opacity: 0; 
+    font-size: 2rem;
+}
+.msglist{
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    font-family: cursive;
+    font-size: 1.7rem;
+    list-style: none;
+    opacity: 0;
+}
+.bottom-container{
+    margin-left: 45%;
+    margin-top: 2%;
+}
+.footer-link1{
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+}
+.cp{
+    margin-left: -2.7%;
+    color: white;
+    margin-bottom: 0;
+}

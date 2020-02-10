@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font|Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <title>Connect</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="/Home.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><h1>Connect</h1></div>
+        <ul class="nav-links">            
+            <li><a href="/about.html">About  <span class="glyphicon glyphicon-user"></span></a></li>
+            <li><a href="/contact.html">Contact  <span class="glyphicon glyphicon-envelope"></span></a></li>
+        </ul>        
+    </nav>
+    <h4 class="tagline">Meet people with your Interests</h4>
+    <div class="option">
+        <button type="button" id="login">Login</button>
+        <button type="button" class="signup">Sign Up</button>         
+    </div>
+    
+    <div class="login-box">
+        <div class="textbox1">
+            <input class="user" type="text" placeholder="Username" name="" value="" required>
+        </div>
+        <div class="textbox2">
+            <input class="pass" type="password" placeholder="password" name="" value="" required>
+        </div>
+        <button class="logbtn" type="button">Login</button>
+        <h4 class="back">Go back ,<a href="/Home.html" style="color: black;">Home</a></h4>
+    </div>
+    <form action="/" role="form" method="post">
+        <div class="sign-up-box">
+            <div class="textbox1">
+                <input type="email" class="newmail" placeholder="Email" name="nmail" value="" required>
+            </div>
+            <div class="textbox2">
+                <input type="text" class="newuser" placeholder="Username" name="nname" value="" required>
+            </div>
+            <div class="textbox3">
+                <input type="password" class="newpass" placeholder="password" name="npass" value="" required>
+            </div>
+            <div class="textbox4">
+                <input type="password" class="newpass2" placeholder="Confirmed password" name="npass2" value="" required>
+            </div>
+            <button type="button" class="signbtn">Sign-In</button>
+            <h4 class="back">Go back ,<a href="/Home.html" style="color: rgb(66, 49, 49);">Home</a></h4>
+        </div>
+    </form>
+    <div class="message">
+        <h3 class="msg"><span id="la" class="glyphicon glyphicon-chevron-left"></span>Password must contain the following:</h3>
+        <ul class="msglist">
+            <li class="ucl">An UpperCase Letter</li>
+            <li class="num">A Number</li>
+            <li class="sc">A Special Character</li>
+        </ul>
+    </div>
+    
+    <div class="bottom-container">
+        <a class="footer-link1" href="https://www.linkedin.com/in/sarthak-duggal-b8686a19b/">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/sardug10">GitHub</a>
+        <p class="cp">© 2020 Sarthak Duggal.</p>
+      </div>
+    <script src="/home.js"></script>    
+</body>
+</html>
